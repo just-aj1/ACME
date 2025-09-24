@@ -35,6 +35,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.content section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #00000099;
 }
 
 header {
@@ -131,6 +139,7 @@ body>div>div>section>p {
 section * {
     margin: 0;
     padding: 0;
+    z-index: 1;
     /* text-align: center; */
 }
 
