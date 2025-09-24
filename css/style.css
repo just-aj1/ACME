@@ -520,7 +520,7 @@ select {
         top: 93px;
         /* align-content: center; */
         align-items: center;
-
+        z-index: 999;
     }
 
     .nav-links.show {
