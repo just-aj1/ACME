@@ -289,10 +289,6 @@ label {
     padding-block-start: 5px;
 }
 
-/* .Help * {
-    margin-left: 25px;
-} */
-
 .information {
     display: flex;
     justify-content: flex-start;
@@ -425,6 +421,25 @@ select {
     width: 100vw;
 }
 
+.connect {
+    height: 30vh;
+    width: 100%;
+    padding: 5rem;
+    padding-bottom: 10rem;
+    background: #3d454a9c;
+    text-align: center;
+}
+
+.connect>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.connect>div button{
+    border-radius: 8px;
+}
 /* tablet view css */
 @media screen and (max-width:768px) {
 
